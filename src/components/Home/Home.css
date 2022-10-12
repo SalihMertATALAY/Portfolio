@@ -1,0 +1,44 @@
+.home img {
+    width: 60%;
+   
+    
+}
+
+.home {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+  transition: transform 500ms ease-in-out;
+}
+
+.home-text {
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.home-text h2{
+    align-items: center;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.home-text p{
+    align-items: center;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+.home-text button {
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+  }

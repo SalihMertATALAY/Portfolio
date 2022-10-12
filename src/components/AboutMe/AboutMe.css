@@ -1,0 +1,35 @@
+.about-me{
+   display: flex;
+   justify-content: space-between;
+   padding: 5rem; 
+   align-items: center;
+   height: 80%;
+
+}
+
+.about-me-text{
+    display: block;
+    justify-content: space-between;
+    padding: 5rem; 
+    text-align: left;
+    width: 40%;
+ }
+
+ .about-me-text{
+    display: block;
+    justify-content: space-between;
+    padding: 5rem; 
+    text-align: left;
+    width: 40%;
+ }
+
+ .about-me-progress{
+    display: block;
+    padding: 5rem; 
+    width: 50%;
+    height: 50%;
+ }
+ .about-me-progress-item{
+    padding: 0.5rem; 
+    text-align: left;
+ }
