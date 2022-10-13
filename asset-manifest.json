@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.07e7c859.css",
-    "main.js": "/Portfolio/static/js/main.0a382a85.js",
-    "static/js/787.436daf27.chunk.js": "/Portfolio/static/js/787.436daf27.chunk.js",
-    "static/media/flutter.png": "/Portfolio/static/media/flutter.71b03f9cc6bee7e5f148.png",
-    "static/media/image.jpeg": "/Portfolio/static/media/image.7fde64575aa20d8965d1.jpeg",
-    "static/media/contact.jpg": "/Portfolio/static/media/contact.13b798d6ec4d62e3e4d2.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.07e7c859.css.map": "/Portfolio/static/css/main.07e7c859.css.map",
-    "main.0a382a85.js.map": "/Portfolio/static/js/main.0a382a85.js.map",
-    "787.436daf27.chunk.js.map": "/Portfolio/static/js/787.436daf27.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.07e7c859.css",
+    "main.js": "/portfolio/static/js/main.74a76709.js",
+    "static/js/787.436daf27.chunk.js": "/portfolio/static/js/787.436daf27.chunk.js",
+    "static/media/flutter.png": "/portfolio/static/media/flutter.71b03f9cc6bee7e5f148.png",
+    "static/media/image.jpeg": "/portfolio/static/media/image.7fde64575aa20d8965d1.jpeg",
+    "static/media/contact.jpg": "/portfolio/static/media/contact.13b798d6ec4d62e3e4d2.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.07e7c859.css.map": "/portfolio/static/css/main.07e7c859.css.map",
+    "main.74a76709.js.map": "/portfolio/static/js/main.74a76709.js.map",
+    "787.436daf27.chunk.js.map": "/portfolio/static/js/787.436daf27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07e7c859.css",
-    "static/js/main.0a382a85.js"
+    "static/js/main.74a76709.js"
   ]
 }
