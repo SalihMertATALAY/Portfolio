@@ -7,15 +7,10 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container">
                 <div className='logo'>
-                <img src={image} alt="" />
-                <h3> Salih Mert ATALAY</h3>
+                    <img src={image} alt="" />
+                    <h3> Salih Mert ATALAY</h3>
                 </div>
-                <ul className="navbar-list">
-                    <li> Anasayfa</li>
-                    <li> Hakkımda</li>
-                    <li> Beceriler</li>
-                    <li> İletişim</li>
-                </ul>
+               
 
             </div>
 

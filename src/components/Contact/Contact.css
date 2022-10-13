@@ -1,0 +1,86 @@
+
+
+@media only screen and (max-width:767.98px) {
+    .contact-body{
+        display: block;
+        align-items: center;
+        padding: 2rem;
+    
+    }
+    .contact-image{
+        width: 20rem;
+        height: 20rem;
+
+        margin-right: 10rem;
+        align-self:flex-start;
+        text-align: left;
+        align-items: flex-start;
+        align-content: flex-start;
+        
+    }
+    .contact-info{
+        text-align: left;
+        width: 90%;
+        
+    }
+    .contact-item{
+        display: flex;
+        align-items: left;
+        vertical-align: center;
+        padding-top:3rem;
+        text-align: center;
+    }
+    .but{
+        display: flex;
+        justify-content: space-around;
+        vertical-align: center;
+    }
+    .but p{
+        padding-left: 0.5rem;
+        line-height:16px;
+    }
+}
+@media only screen and (min-width:767.98px) {
+    
+
+
+.contact-body{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+}
+
+.contact-image{
+    width: 70%;
+    margin-right: 10rem;
+    align-self:flex-start;
+    text-align: left;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+
+.contact-info{
+    text-align: left;
+    width: 90%;
+    
+}
+.contact-item{
+    display: flex;
+    align-items: left;
+    vertical-align: center;
+    padding-top:3rem;
+    text-align: center;
+}
+.but{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center;
+}
+.but p{
+    padding-left: 0.5rem;
+    line-height:16px;
+}
+}

@@ -10,6 +10,7 @@ const Home = () => {
     return (
       <AnimatedPage>
          <div className='home'>
+         <img src={image} alt="" />
                 <div className='home-text'>
                     <h2>Merhaba, Ben Salih</h2>
                     <p>
@@ -22,7 +23,7 @@ const Home = () => {
                     />
                     <button> İletişime Geç </button>
                 </div>
-                <img src={image} alt="" />
+                
 
             </div>
       </AnimatedPage>

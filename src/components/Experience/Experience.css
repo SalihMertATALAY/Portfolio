@@ -1,87 +1,261 @@
-.experience{
+
+
+
+@media only screen and (min-width:700px) {
+  .experience {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-.experience-body{
+    padding: 2rem;
+  }
+  
+  .experience-body {
     text-align: left;
     padding-bottom: 10rem;
+  }
+  
+  .experience-container {
+    position: sticky;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 0%);
+    height: 400px;
+    width: 600px;
+    background: #f2f2f2;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: justify;
+    color: black;
+    padding: 40px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 300;
+  }
+  
+  .flap {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flap::before {
+    position: absolute;
+    content: "";
+    font-weight: bold;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background: white;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  
+  .flap::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: url("../../assets/key.png") white;
+  
+    right: 0;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+
+  .flap-agu {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flap-agu::before {
+    position: absolute;
+    content: "";
+    font-weight: bold;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background: white;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  
+  .flap-agu::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: url("../../assets/agu.png") white;
+  
+    right: 0;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  .experience-container:hover .flap-agu::after {
+    transform: translatex(300px);
+  }
+  
+  .experience-container:hover .flap-agu::before {
+    transform: translatex(-300px);
+  }
+  .experience-container:hover .flap::after {
+    transform: translatex(300px);
+  }
+  
+  .experience-container:hover .flap::before {
+    transform: translatex(-300px);
+  }
+  
+  
+  .experience-body h2 {
+    padding: 2rem;
+  
+  }
+  
 }
+@media only screen and (max-width:700px) {
+  .experience {
+    display: block;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .experience-body {
+    text-align: left;
+  }
+  
+  .experience-container {
+    position: sticky;
+    left: 50%;
+    padding: auto;
 
-.experience-container  {
-  position: sticky;
-  left: 50%;
-  top: 50%;
-  transform: translate(0%, 0%);
-  height: 400px;
-  width: 600px;
-  background: #f2f2f2;
-  overflow: hidden;
-  border-radius: 20px;
-  cursor: pointer;
-  box-shadow: 0 0 20px 8px #d0d0d0;
-}
+    top: 50%;
+    transform: translate(0%, 0%);
+    height: 20rem;
+    width: 20rem;
+    background: #f2f2f2;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: justify;
+    color: black;
+    padding: 40px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 300;
+  }
+  
+  .flap {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .flap::before {
+    position: absolute;
+    content: "";
+    font-weight: bold;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background: white;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+ 
+  
+  .flap::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: url("../../assets/key.png") white;
+  
+    right: 0;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  .experience-container:hover .flap::after {
+    transform: translatex(300px);
+  }
+  
+  .experience-container:hover .flap::before {
+    transform: translatex(-300px);
+  }
+  .flap-agu {
+    width: 100%;
+    height: 100%;
+  }
+  .flap-agu::before {
+    position: absolute;
+    content: "";
+    font-weight: bold;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background: white;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  .flap-agu::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: url("../../assets/agu.png") white;
+    right: 0;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  .experience-container:hover .flap-agu::after {
+    transform: translatex(300px);
+  }
+  
+  .experience-container:hover .flap-agu::before {
+    transform: translatex(-300px);
+  }
+  
 
-.content {
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  text-align: justify;
-  color: black;
-  padding: 40px;
-  font-family: 'Merriweather', serif;
-}
-
-h1 {
-  font-weight: 900;
-  text-align: center;
-}
-
-h3 {
-  font-weight: 300;
-}
-
-.flap {
-  width: 100%;
-  height: 100%;
-}
-
-.flap::before {
-  position: absolute;
-  content: "";
-  font-weight: bold;
-  justify-content: center;
-  height: 100%;
-  width: 50%;
-  background: white;
-  background-position: 100px;
-  background-repeat: no-repeat;
-  transition: 1s;
-}
-
-.flap::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 50%;
-  background: url("../../assets/key.png") white;
-
-  right: 0;
-  background-position-y: 200px;
-  background-repeat: no-repeat;
-  transition: 1s;
-}
-
-.experience-container:hover .flap::after {
-  transform: translatex(300px);
-}
-
-.experience-container:hover .flap::before{
-  transform: translatex(-300px);
-}
+  
+  .experience-body h2 {
+    padding: 2rem;
+  
+  }
 
 
-.experience-body h2 {
-    padding-left: 5rem;
-    padding-bottom: 5rem;
 }

@@ -1,35 +1,66 @@
-.about-me{
+.about-me {
    display: flex;
    justify-content: space-between;
-   padding: 5rem; 
    align-items: center;
    height: 80%;
 
 }
 
-.about-me-text{
-    display: block;
-    justify-content: space-between;
-    padding: 5rem; 
-    text-align: left;
-    width: 40%;
- }
+.about-me-text {
+   display: block;
+   justify-content: space-between;
+   padding: 2rem;
+   text-align: left;
+   width: 40%;
+}
 
- .about-me-text{
-    display: block;
-    justify-content: space-between;
-    padding: 5rem; 
-    text-align: left;
-    width: 40%;
- }
 
- .about-me-progress{
-    display: block;
-    padding: 5rem; 
-    width: 50%;
-    height: 50%;
- }
- .about-me-progress-item{
-    padding: 0.5rem; 
-    text-align: left;
- }
+
+.about-me-progress {
+   display: block;
+   padding: 5rem;
+   width: 50%;
+   height: 50%;
+}
+
+.about-me-progress-item {
+   padding: 0.5rem;
+   text-align: left;
+}
+
+
+@media only screen and (max-width:700px) {
+   .about-me {
+      display: block;
+      align-items: left;
+
+   }
+
+   .about-me-text {
+      display: block;
+      text-align: left;
+      size: 1px;
+width: 100%;
+   }
+
+   .about-me-text p {
+      display: block;
+      text-align: left;
+      size: 5px;
+   }
+   .about-me-text h2 {
+      font-weight: bold;
+      padding: 1rem 0rem;
+   }
+
+   .about-me-progress {
+      display: block;
+      width: 100%;
+      padding: 2rem;
+   }
+
+   .about-me-progress-item {
+      text-align: left;
+      width: 100%;
+   }
+}
